@@ -296,7 +296,19 @@ main {
 
 
 
+/* ── RESPONSIVE ──────────────────────────────────── */
+@media (max-width: 768px) {
+  nav { display: none; }
+  .hero h1 { font-size: 1.45rem; }
+  .cards-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  main { padding: 1rem; }
 
+}
+
+@media (max-width: 420px) {
+  .cards-grid { grid-template-columns: 1fr 1fr; }
+  .card-number { font-size: 1.2rem; }
+}
 
 
 
