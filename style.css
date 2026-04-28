@@ -269,23 +269,7 @@ main {
   line-height: 1.55;
 }
 
-.call-btn {
-  width: 100%;
-  padding: 9px;
-  border-radius: 9px;
-  border: none;
-  font-size: 0.88rem;
-  font-family: inherit;
-  font-weight: 600;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  margin-top: 8px;
-  transition: opacity 0.2s, transform 0.15s;
-  color: #fff;
-}
+
 
 .call-btn:hover   { opacity: 0.88; transform: scale(0.98); }
 .call-btn.c-red    { background: var(--red); }
